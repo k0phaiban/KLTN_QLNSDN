@@ -1,0 +1,87 @@
+@mixin make-property($property, $value) {
+
+    @each $prefix in -webkit-, -moz-, -ms-, -o-, "" {
+
+      #{$prefix}#{$property}: $value;
+
+    }
+
+  }
+
+@mixin setIcon($icon-name, $icon-width, $icon-height, $icon-color, $icon-posX, $icon-posY, $icon-link) {
+
+  .#{$icon-name} {
+
+    width: $icon-width;
+
+    height: $icon-height;
+
+    //không dùng được link chung vì lúc build sẽ bị lỗi
+
+    // -webkit-mask-image: $link-icon;
+
+    @include make-property(mask-image, $icon-link);
+
+    @include make-property(mask-position, $icon-posX $icon-posY);
+
+    @include make-property(mask-repeat, no-repeat);
+
+    // mask-image: $link-icon;
+
+    // mask-position: $icon-posX $icon-posY;
+
+    background-color: $icon-color !important;
+
+    // mask-repeat: no-repeat;
+
+  }
+
+};
+
+// set icon mà không quan tâm đến màu
+
+@mixin setIconWithoutColor($icon-name, $icon-width, $icon-height, $icon-posX, $icon-posY, $icon-link) {
+
+  .#{$icon-name} {
+
+    width: $icon-width;
+
+    height: $icon-height;
+
+    //không dùng được link chung vì lúc build sẽ bị lỗi
+
+    @include make-property(mask-image, $icon-link);
+
+    // -webkit-mask-image: $link-icon;
+
+    // mask-image: $link-icon;
+
+    // mask-position: $icon-posX $icon-posY;
+
+    @include make-property(mask-position, $icon-posX $icon-posY);
+
+    @include make-property(mask-repeat, no-repeat);
+
+    // mask-repeat: no-repeat;
+
+  }
+
+};
+
+// set icon lấy màu mặc định
+
+@mixin setIconWithDefaultColor($icon-name, $icon-width, $icon-height, $icon-posX, $icon-posY, $icon-link) {
+
+  .#{$icon-name} {
+
+    width: $icon-width;
+
+    height: $icon-height;
+
+    //không dùng được link chung vì lúc build sẽ bị lỗi
+
+    background: $icon-link $icon-posX $icon-posY no-repeat;
+
+  }
+
+};
