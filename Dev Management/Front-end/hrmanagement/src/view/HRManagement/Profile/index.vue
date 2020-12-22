@@ -7,6 +7,7 @@
                 :dataSource="dataSource">
             </ccTable>
         </div>
+        <div class="icon-home"></div>
     </div>
 </template>
 <script>
