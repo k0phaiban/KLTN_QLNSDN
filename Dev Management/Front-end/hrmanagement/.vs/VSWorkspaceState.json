@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\components\\sidebar",
+    "\\src\\components\\view",
+    "\\src\\components\\view\\view-control",
+    "\\src\\components\\view\\view-control\\view-detail",
+    "\\src\\icon",
+    "\\src\\styles"
+  ],
+  "SelectedNode": "\\src\\icon\\icon-right.png",
+  "PreviewInSolutionExplorer": false
+}
