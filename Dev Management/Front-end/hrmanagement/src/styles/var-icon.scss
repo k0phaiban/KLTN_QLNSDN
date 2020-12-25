@@ -51,6 +51,8 @@ $link-icon1: url("../assets/icon/Icon.svg");
 
 //Hàng 2
 @include setIconWithDefaultColor('icon-notify',24px,24px,0px,-24px,$link-icon1);
+//Hàng 16
+@include setIconWithDefaultColor('icon-notify',24px,24px,-264px,-24px,$link-icon1);
 //hàng 20
 @include setIconWithDefaultColor('icon-home20',24px,24px,0px,-480px,$link-icon1);
 @include setIconWithDefaultColor('icon-user20',24px,24px,-24px,-480px,$link-icon1);
@@ -61,6 +63,9 @@ $link-icon1: url("../assets/icon/Icon.svg");
 @include setIconWithDefaultColor('icon-setting20',24px,24px,-192px,-480px,$link-icon1);
 @include setIconWithDefaultColor('icon-next20',24px,24px,-240px,-480px,$link-icon1);
 @include setIconWithDefaultColor('icon-back20',24px,24px,-216px,-480px,$link-icon1);
+
+//Hàng 11
+@include setIconWithDefaultColor('icon-help',24px,24px,-24px,-240px,$link-icon1);
 
 //Bộ icon 1
 $link-icon2: url("../assets/icon/Icon-2.svg");

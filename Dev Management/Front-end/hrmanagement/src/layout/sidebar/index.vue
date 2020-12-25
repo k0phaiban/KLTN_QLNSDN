@@ -2,8 +2,7 @@
     <div class="cc-sidebar">
         <div class="cc-menu">
             <div v-for="(item,index) in listMenu" :key="(index)" :class="['flex align-center cc-item f-caption',{'cc-active': item.ID == activeID}]" @click="active(item)">
-                <div>
-
+                <div :class="item.Icon">
                 </div>
                 <div>
                     {{item.Name}}
@@ -19,19 +18,19 @@ export default {
             listHRManagement: [
                 {
                     ID: 1,
-                    Icon: "",
+                    Icon: "icon-home20",
                     Name: "Tổng quan",
                     Router: "",
                 },
                 {
                     ID: 2,
-                    Icon: "",
+                    Icon: "icon-user20",
                     Name: "Hồ sơ",
                     Router: ""
                 },
                 {
                     ID: 3,
-                    Icon: "",
+                    Icon: "icon-note20",
                     Name: "Hợp đồng",
                     Router: ""
                 },
@@ -61,13 +60,13 @@ export default {
                 },
                 {
                     ID: 8,
-                    Icon: "",
+                    Icon: "icon-help20",
                     Name: "Báo cáo",
                     Router: ""
                 },
                 {
                     ID: 9,
-                    Icon: "",
+                    Icon: "icon-setting20",
                     Name: "Thiết lập",
                     Router: ""
                 },

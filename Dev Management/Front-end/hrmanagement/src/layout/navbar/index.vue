@@ -4,19 +4,19 @@
             <div class="app-store">
                 <div class="icon-chocolate2"></div>
             </div>
-            <img class="logo" src="@/assets/icon/sidebar/user.svg"/>
+            <img class="logo m-r-12" src="@/assets/icon/sidebar/user.svg"/>
             <div class="f-logo pointer">
                 Hồ sơ
             </div>
         </div>
         <div class="block-right">
-            <div>
-                <div></div>
+            <div class="ico-notify m-r-8" title="Thông báo">
+                <div class="icon-notify"></div>
             </div>
-            <div>
-                <div></div>
+            <div class="ico-notify m-r-12" title="Help">
+                <div class="icon-help"></div>
             </div>
-            <img class="logo" src="@/assets/icon/sidebar/user.svg"/>
+            <img class="logo m-r-24" src="@/assets/icon/sidebar/user.svg"/>
         </div>
     </div>
 </template>
@@ -58,7 +58,6 @@ export default {
         .logo{
             width: 34px;
             height: 34px;
-            margin-right: 12px;
             cursor: pointer;
         }
     }
@@ -67,6 +66,23 @@ export default {
         right: 0;
         display: flex;
         align-items: center;
+        .logo{
+            width: 34px;
+            height: 34px;
+            cursor: pointer;
+        }
+        .ico-notify{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 50px;
+            cursor: pointer;
+            &:hover{
+                background-color: #f5f5f5;
+            }
+        }
     }
 }
 </style>
