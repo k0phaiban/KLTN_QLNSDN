@@ -61,3 +61,9 @@ $link-icon1: url("../assets/icon/Icon.svg");
 @include setIconWithDefaultColor('icon-setting20',24px,24px,-192px,-480px,$link-icon1);
 @include setIconWithDefaultColor('icon-next20',24px,24px,-240px,-480px,$link-icon1);
 @include setIconWithDefaultColor('icon-back20',24px,24px,-216px,-480px,$link-icon1);
+
+//Bộ icon 1
+$link-icon2: url("../assets/icon/Icon-2.svg");
+
+//Hàng 3
+@include setIconWithDefaultColor('icon-chocolate2',24px,24px,-192px,-48px,$link-icon2);

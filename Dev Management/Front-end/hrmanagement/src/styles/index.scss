@@ -7,6 +7,11 @@ body {
     font-size: 14px;
     font-family: GoogleSans-Regular,sans-serif;
 }
+.f-logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 .f-title {
     font-size: 20px;
     font-family: GoogleSans-Bold,sans-serif;
@@ -33,4 +38,18 @@ body {
 
 .align-center{
     align-items: center;
+}
+
+//css chung
+.pointer{
+    cursor: pointer;
+}
+
+//margin, padding
+.m-l-2 {
+    margin-left: 2px;
+}
+
+.m-r-2 {
+    margin-right: 2px;
 }
