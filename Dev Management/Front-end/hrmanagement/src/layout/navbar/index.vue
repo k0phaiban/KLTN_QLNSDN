@@ -6,7 +6,7 @@
             </div>
             <img class="logo m-r-12" src="@/assets/icon/sidebar/user.svg"/>
             <div class="f-logo pointer">
-                Hồ sơ
+                Quản lý nhân sự
             </div>
         </div>
         <div class="block-right">

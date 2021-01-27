@@ -14,7 +14,7 @@ body {
 }
 .f-title {
     font-size: 20px;
-    font-family: GoogleSans-Bold,sans-serif;
+    font-family: GoogleSans-Medium,sans-serif;
 }
 .f-caption {
     font-size: 16px;
@@ -40,11 +40,79 @@ body {
     align-items: center;
 }
 
+.between{
+    justify-content: space-between;
+}
 //css chung
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100%;
+}
 .pointer{
     cursor: pointer;
 }
+.btn-icon{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    &:hover{
+        background-color: #f5f5f5;
+    }
+}
+.btn-icon-2{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    &:hover{
+        background-color: #dddddd;
+    }
+}
 
+.btn-icon-3{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,.175);
+    cursor: pointer;
+    &:hover{
+        background-color: #ffffff;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dddddd;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d2d2d2;
+  }
 //margin, padding
 .m-l-2 {
     margin-left: 2px;
@@ -256,4 +324,7 @@ body {
 }
 .p-t-32{
     padding-top: 32px;
+}
+.m-r-60{
+    margin-right: 60px;
 }

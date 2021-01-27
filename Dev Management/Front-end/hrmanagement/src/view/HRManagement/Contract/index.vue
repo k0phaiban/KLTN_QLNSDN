@@ -1,7 +1,7 @@
 <template>
-    <div class="cc-profile">
-        <div class="profile-header m-b-12">
-            <div class="f-title">Hồ sơ</div>
+    <div class="cc-contract">
+        <div class="contract-header m-b-12">
+            <div class="f-title">Hợp đồng</div>
             <div>
                 <cc-button>Thêm</cc-button>
             </div>
@@ -22,29 +22,46 @@ export default {
         return{
             listHeader: [
                 {
-                    dataField: "FullName",
-                    caption: "Họ và tên",
-                    dataTyle: "text"
+                    dataField: "contractName",
+                    caption: "Tên hợp đồng",
+                    dataTyle: "text",
+                    minWidth: 150
                 },
                 {
-                    dataField: "Code",
-                    caption: "Mã",
-                    dataTyle: "text"
+                    dataField: "employeeName",
+                    caption: "Nhân viên",
+                    dataTyle: "text",
+                    minWidth: 150
                 },
                 {
-                    dataField: "Gender",
-                    caption: "Giới tính",
-                    dataTyle: "text"
+                    dataField: "organizationUnitName",
+                    caption: "Đơn vị",
+                    dataTyle: "text",
+                    minWidth: 150
                 },
                 {
-                    dataField: "Old",
-                    caption: "Tuổi",
-                    dataTyle: "number"
+                    dataField: "jobtitleName",
+                    caption: "Vị trí công việc",
+                    dataTyle: "text",
+                    minWidth: 150
                 },
                 {
-                    dataField: "Email",
-                    caption: "Email",
-                    dataTyle: "text"
+                    dataField: "salary",
+                    caption: "Lương cơ bản",
+                    dataTyle: "text",
+                    minWidth: 150
+                },
+                {
+                    dataField: "dateApply",
+                    caption: "Ngày áp dụng",
+                    dataTyle: "number",
+                    minWidth: 150
+                },
+                {
+                    dataField: "type",
+                    caption: "Loại hợp đồng",
+                    dataTyle: "text",
+                    minWidth: 150
                 },
             ],
             dataSource: [
@@ -96,9 +113,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.cc-profile{
+.cc-contract{
     height: 100%;
-    .profile-header{
+    .contract-header{
         height: 36px;
         display: flex;
         align-items: center;

@@ -21,10 +21,11 @@ export default {
 .cc-body{
     position: absolute;
     top: 60px;
-    left: 200px;
+    left: 220px;
     bottom: 0px;
     right: 0px;
-    padding: 0 24px 24px 24px;
+    padding: 16px 24px 24px 24px;
     background-color: #F5F5F5;
+    overflow: auto;
 }
 </style>

@@ -7,6 +7,7 @@ import './styles/index.scss';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
+import './globalComponents';
 
 Vue.config.productionTip = false
 
