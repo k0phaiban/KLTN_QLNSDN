@@ -1,0 +1,12 @@
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.deps.json
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.dll
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.pdb
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csprojAssemblyReference.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.AssemblyInfoInputs.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.AssemblyInfo.cs
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csproj.CoreCompileInputs.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.dll
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.pdb
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.dll
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.pdb
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csproj.CopyComplete

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HRManagement.Model/1.0.0": {
+        "dependencies": {
+          "ApplicationCore.Base": "1.0.0"
+        },
+        "runtime": {
+          "HRManagement.Model.dll": {}
+        }
+      },
+      "ApplicationCore.Base/1.0.0": {
+        "runtime": {
+          "ApplicationCore.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRManagement.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApplicationCore.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

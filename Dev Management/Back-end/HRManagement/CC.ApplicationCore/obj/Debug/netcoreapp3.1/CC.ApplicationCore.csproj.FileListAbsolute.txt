@@ -1,0 +1,9 @@
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\bin\Debug\netcoreapp3.1\CC.ApplicationCore.deps.json
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\bin\Debug\netcoreapp3.1\CC.ApplicationCore.dll
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\bin\Debug\netcoreapp3.1\CC.ApplicationCore.pdb
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.csprojAssemblyReference.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.AssemblyInfoInputs.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.AssemblyInfo.cs
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.dll
+C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\CC.ApplicationCore\obj\Debug\netcoreapp3.1\CC.ApplicationCore.pdb

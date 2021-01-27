@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ApplicationCore.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ApplicationCore.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationCore.Base.dll": {}
+        }
+      },
+      "HRManagement.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ApplicationCore.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HRManagement.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRManagement.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationCore.Base/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationCore.Base/ApplicationCore.Base.csproj",
+      "msbuildProject": "../ApplicationCore.Base/ApplicationCore.Base.csproj"
+    },
+    "HRManagement.Model/1.0.0": {
+      "type": "project",
+      "path": "../HRManagement.Model/HRManagement.Model.csproj",
+      "msbuildProject": "../HRManagement.Model/HRManagement.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ApplicationCore.Base >= 1.0.0",
+      "HRManagement.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KyThuat88\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
+      "projectName": "HRManagement.BL",
+      "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
+      "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+              "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
+            },
+            "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
+              "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
