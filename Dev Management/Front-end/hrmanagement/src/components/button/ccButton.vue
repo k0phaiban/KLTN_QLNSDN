@@ -1,9 +1,10 @@
 <template>
     <div>
         <button
-            :class="['btn-common','btn-' + type]"
+            :class="['btn-common','btn-' + type,{'btn-icon': icon != null}]"
             @click="handleClick"
         >
+            <div v-if="icon != null" :class="[icon, 'm-r-8']"></div>
             <slot></slot>
         </button>
     </div>
@@ -15,6 +16,10 @@ export default {
         type: {
             Type: String,
             default: "primary"
+        },
+        icon: {
+            Type: String,
+            default: null
         }
     },
     methods: {
@@ -37,7 +42,11 @@ export default {
     font-weight: 500;
     outline: none;
     min-width: 80px;
+    width: auto;
     cursor: pointer;
+}
+.btn-icon{
+    padding: 0 12px !important;
 }
 .btn-primary{
     color: #ffffff;
@@ -59,6 +68,18 @@ export default {
     }
     &:active{
         background-color: #d0d0d0;
+    }
+}
+.btn-primary-border{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid $primary;
+    color:$primary;
+    &:hover{
+        background-color: #d6ecff;
+    }
+    &:active{
+        background-color:#cae6ff;
     }
 }
 </style>

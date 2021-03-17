@@ -109,4 +109,7 @@ export default {
     border: none;
      box-shadow: 0 2px 4px rgba(0,0,0,.175);
 }
+.dx-popup-content{
+    padding: 8px;
+}
 </style>

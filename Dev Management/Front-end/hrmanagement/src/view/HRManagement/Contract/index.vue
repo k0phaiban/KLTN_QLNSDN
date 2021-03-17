@@ -1,23 +1,31 @@
 <template>
-    <div class="cc-contract">
-        <div class="contract-header m-b-12">
-            <div class="f-title">Hợp đồng</div>
-            <div>
-                <cc-button>Thêm</cc-button>
+    <div class="h-100">
+        <div class="cc-contract" v-if="type == 1">
+            <div class="contract-header m-b-12">
+                <div class="f-title">Hợp đồng</div>
+                <div class="flex">
+                    <cc-organization-unit class="m-r-12" style="width: 250px;"></cc-organization-unit>
+                    <cc-button class="m-r-12" icon="icon-import" type="primary-border">Nhập khẩu</cc-button>
+                    <cc-button icon="icon-plus-white" @click="type = 2">Thêm</cc-button>
+                </div>
+            </div>
+            <div style="height: calc(100% - 48px);">
+                <ccTable 
+                    :listHeader="listHeader" 
+                    :dataSource="dataSource">
+                </ccTable>
             </div>
         </div>
-        <div style="height: calc(100% - 48px);">
-            <ccTable 
-                :listHeader="listHeader" 
-                :dataSource="dataSource">
-            </ccTable>
-        </div>
+        <AddContract v-if="type == 2"></AddContract>
     </div>
 </template>
 <script>
-import ccButton from '../../../components/button/ccButton.vue'
+import ContractAPI from "@/api/ContractAPI.js";
+import AddContract from "./AddContract"
 export default {
-  components: { ccButton },
+    components: {
+        AddContract
+    },
     data(){
         return{
             listHeader: [
@@ -64,51 +72,22 @@ export default {
                     minWidth: 150
                 },
             ],
-            dataSource: [
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                },
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                },
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                },
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                },
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                },
-                {
-                    FullName: "Cao Văn Cường",
-                    Code: "122424",
-                    Gender: "Name",
-                    Old: 19,
-                    Email: "caocuong61299@gmail.com"
-                }
-            ]
+            dataSource: [],
+            type: 1
         }
+    },
+    methods: {
+        async getAll(){
+            this.type = 1;
+            let me = this;
+            var res = await ContractAPI.GetAll();
+            if(res.data && res.data.success){
+                me.dataSource = res.data.data;
+            }
+        }
+    },
+    async created(){
+        await this.getAll();
     }
 }
 </script>

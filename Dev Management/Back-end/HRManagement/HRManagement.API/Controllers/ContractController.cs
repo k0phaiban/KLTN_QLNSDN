@@ -18,6 +18,7 @@ namespace HRManagement.API.Controllers
     {
         public ContractController(IContractBL contractBL, IBaseBL baseBL):base(baseBL)
         {
+            baseBL.SetTableName("contract");
             this.BL = contractBL;
             this.curentType = typeof(Contract);
         }
