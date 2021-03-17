@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\KyThuat88\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
+      "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
       "projectName": "ApplicationCore.Base",
-      "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
-      "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\obj\\",
+      "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

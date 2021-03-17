@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj": {}
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
+        "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
         "projectName": "ApplicationCore.Base",
-        "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
-        "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\obj\\",
+        "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj": {
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj",
+        "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj",
         "projectName": "ApplicationCore.Service",
-        "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj",
-        "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\obj\\",
+        "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
               }
             }
           }
@@ -143,21 +143,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj": {
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj",
+        "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj",
         "projectName": "HRManagement.API",
-        "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj",
-        "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\obj\\",
+        "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\HRManagement.API.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -171,17 +171,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
               },
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Service\\ApplicationCore.Service.csproj"
               },
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj"
               },
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj"
               }
             }
           }
@@ -233,21 +233,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj": {
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
+        "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
         "projectName": "HRManagement.BL",
-        "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
-        "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\obj\\",
+        "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\HRManagement.BL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -261,11 +261,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
               },
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj"
               }
             }
           }
@@ -294,21 +294,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
+    "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj",
+        "projectUniqueName": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj",
         "projectName": "HRManagement.Model",
-        "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj",
-        "packagesPath": "C:\\Users\\KyThuat88\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\obj\\",
+        "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\HRManagement.Model.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\HRManagement.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KyThuat88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -322,8 +322,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
-                "projectPath": "C:\\GitHub\\k0phaiban\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
+              "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj": {
+                "projectPath": "C:\\VueJS\\KLTN_QLNSDN\\Dev Management\\Back-end\\HRManagement\\ApplicationCore.Base\\ApplicationCore.Base.csproj"
               }
             }
           }
@@ -352,7 +352,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
