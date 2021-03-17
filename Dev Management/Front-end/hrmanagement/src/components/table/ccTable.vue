@@ -9,7 +9,6 @@
             :columnAutoWidth="true"
             :hoverStateEnabled="true"
             height="100%"
-            @content-ready="onContentReady"
         >
             <DxColumn
                 v-if="buttonMore"
@@ -32,8 +31,18 @@
                 :width="item.width"
                 :min-width="item.minWidth"
             />
+            <DxColumn
+                width="60"
+                :fixed="true"
+                cell-template="btn-delete"
+            />
+            <template #btn-delete>
+                <div class="btn-icon-3">
+                    <div class="icon-delete"></div>
+                </div>
+            </template>
             <template #button-more>
-                <div class="btn-icon" style="margin: -6px;">
+                <div class="btn-icon-3">
                     <div class="icon-three-dot"></div>
                 </div>
             </template>
@@ -100,14 +109,16 @@ export default {
 
     .dx-datagrid-rowsview .dx-row > td{
         border: none;
-        padding: 14px 12px;
+        padding: 0px 12px;
         color: #000000;
+        vertical-align: middle;
     }
     .dx-datagrid-headers .dx-datagrid-table .dx-row > td{
         border: none;
-        padding: 14px 12px;
+        padding: 0px 12px;
         color: #000000;
         font-weight: 500;
+        vertical-align: middle;
         &:hover{
             border-right: 1px solid #dddddd;
         }
@@ -137,6 +148,27 @@ export default {
     }
     .dx-datagrid .dx-datagrid-rowsview .dx-freespace-row td.dx-pointer-events-none{
         border-left: none;
+    }
+    .cc-table .dx-datagrid-rowsview .dx-row{
+        &:hover{
+            .hover-block{
+                display: flex;
+            }
+        }
+    }
+    .hover-block{
+        display: none;
+    }
+    .dx-datagrid-checkbox-size.dx-checkbox-indeterminate .dx-checkbox-icon{
+        font-size: 10px;
+    }
+    .cc-table .dx-datagrid-borders > .dx-datagrid-rowsview{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .dx-datagrid-headers .dx-datagrid-content{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 }
 </style>
