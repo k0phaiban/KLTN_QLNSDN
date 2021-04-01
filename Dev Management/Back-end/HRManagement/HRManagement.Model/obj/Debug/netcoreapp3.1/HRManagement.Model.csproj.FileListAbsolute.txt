@@ -10,3 +10,15 @@ C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagemen
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.dll
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.pdb
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csproj.CopyComplete
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.deps.json
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.dll
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\HRManagement.Model.pdb
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.dll
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\bin\Debug\netcoreapp3.1\ApplicationCore.Base.pdb
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csprojAssemblyReference.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.AssemblyInfoInputs.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.AssemblyInfo.cs
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csproj.CoreCompileInputs.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.csproj.CopyComplete
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.dll
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\HRManagement.Model\obj\Debug\netcoreapp3.1\HRManagement.Model.pdb

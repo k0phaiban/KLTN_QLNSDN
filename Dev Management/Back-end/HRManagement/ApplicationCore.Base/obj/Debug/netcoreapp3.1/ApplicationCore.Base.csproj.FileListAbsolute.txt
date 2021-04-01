@@ -7,3 +7,12 @@ C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\Application
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.csproj.CoreCompileInputs.cache
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.dll
 C:\GitHub\k0phaiban\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.pdb
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\bin\Debug\netcoreapp3.1\ApplicationCore.Base.deps.json
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\bin\Debug\netcoreapp3.1\ApplicationCore.Base.dll
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\bin\Debug\netcoreapp3.1\ApplicationCore.Base.pdb
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.csprojAssemblyReference.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.AssemblyInfoInputs.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.AssemblyInfo.cs
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.csproj.CoreCompileInputs.cache
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.dll
+C:\VueJS\KLTN_QLNSDN\Dev Management\Back-end\HRManagement\ApplicationCore.Base\obj\Debug\netcoreapp3.1\ApplicationCore.Base.pdb

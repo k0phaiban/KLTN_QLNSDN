@@ -13,7 +13,7 @@ namespace HRManagement.Model.Models
 
         public int? ParentID { get; set; }
 
-        public string CCCode { get; set; }
+        public string Code { get; set; }
 
         public string Address { get; set; }
 
@@ -21,6 +21,6 @@ namespace HRManagement.Model.Models
 
         public string Note { get; set; }
 
-        public int? TenantID { get; set; }
+        public Guid? TenantID { get; set; }
     }
 }
