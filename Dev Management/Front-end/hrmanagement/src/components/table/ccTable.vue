@@ -30,19 +30,32 @@
                 :caption="item.caption"
                 :width="item.width"
                 :min-width="item.minWidth"
+                :fixed="item.fixed ? item.fixed : false"
             />
             <DxColumn
-                width="60"
+                width="50"
                 :fixed="true"
+                fixedPosition="right"
+                cell-template="btn-edit"
+            />
+            <DxColumn
+                width="50"
+                :fixed="true"
+                fixedPosition="right"
                 cell-template="btn-delete"
             />
-            <template #btn-delete>
-                <div class="btn-icon-3">
+            <template #btn-edit="{data}">
+                <div class="btn-icon-3 btn-none" @click="clickEdit(data)">
+                    <div class="icon-edit"></div>
+                </div>
+            </template>
+            <template #btn-delete="{data}">
+                <div class="btn-icon-3 btn-none" @click="clickDelete(data)">
                     <div class="icon-delete"></div>
                 </div>
             </template>
             <template #button-more>
-                <div class="btn-icon-3">
+                <div class="btn-more">
                     <div class="icon-three-dot"></div>
                 </div>
             </template>
@@ -79,8 +92,21 @@ export default {
         return{
 
         }
+    },
+    methods: {
+        /**
+         * Hàm bắt sự kiện sửa tại dòng
+         */
+        clickEdit(data){
+            this.$emit("clickEdit", data.data);
+        },
+        /**
+         * Hàm bắt sự kiện sửa tại dòng
+         */
+        clickDelete(data){
+            this.$emit("clickDelete", data.data);
+        }
     }
-    
 }
 </script>
 <style lang="scss">
@@ -169,6 +195,33 @@ export default {
     .dx-datagrid-headers .dx-datagrid-content{
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+    }
+    .dx-datagrid .dx-datagrid-content-fixed .dx-datagrid-table.dx-datagrid-table-fixed .dx-row td.dx-pointer-events-none{
+        border-right: none !important;
+    }
+    .dx-row.dx-data-row.dx-column-lines.dx-state-hover{
+        background-color: #EBF4FF;
+    }
+    .btn-none{
+        display: none;
+    }
+    .btn-more{
+        width: 32px;
+        height: 32px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 0 0 10px rgba(0,0,0,.175);
+            background-color: #ffffff;
+        }
+    }
+    .dx-state-hover{
+        .btn-none{
+            display: flex !important;
+        }
     }
 }
 </style>

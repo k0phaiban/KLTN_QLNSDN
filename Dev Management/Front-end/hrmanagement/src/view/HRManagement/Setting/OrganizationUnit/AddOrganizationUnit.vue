@@ -25,7 +25,7 @@
                         Đơn vị cha
                     </cc-col>
                     <cc-col w="30">
-                        <cc-organization-unit v-model="organization.ParentID"></cc-organization-unit>
+                        <cc-organization-unit v-model="organization.ParentID" @childCode="setCCCOde"></cc-organization-unit>
                     </cc-col>
                 </cc-row>
                  <cc-row>
@@ -57,9 +57,10 @@ export default {
                 OrganizationUnitName: null,
                 ParentID: null,
                 Address: null,
-                CCCode: null,
+                Code: null,
                 Status: 0,
-                Note: null
+                Note: null,
+                TenantID: "e806ada4-8745-11eb-aa29-18dbf2054f66"
             }
         }
     },
@@ -74,11 +75,11 @@ export default {
                 this.$emit("close", true);
             }
             else{
-
+                console.log();
             }
         },
         setCCCOde(val){
-            this.organization.CCCode = val;
+            this.organization.Code = val;
         }
     }
 }

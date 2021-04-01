@@ -9,8 +9,8 @@
             </div>
             <div style="height: calc(100% - 48px);">
                 <ccTreeList
-                    keyField="organizationUnitID"
-                    parentKey="parentID"
+                    keyField="OrganizationUnitID"
+                    parentKey="ParentID"
                     :listHeader="listHeader" 
                     :dataSource="dataSource"
                 >
@@ -31,22 +31,22 @@ export default {
         return{
             listHeader: [
                 {
-                    dataField: "organizationUnitName",
+                    dataField: "OrganizationUnitName",
                     caption: "Tên đơn vị",
                     dataTyle: "text"
                 },
                 {
-                    dataField: "address",
+                    dataField: "Address",
                     caption: "Địa chỉ",
                     dataTyle: "text"
                 },
                 {
-                    dataField: "note",
+                    dataField: "Note",
                     caption: "Ghi chú",
                     dataTyle: "text"
                 },
                 {
-                    dataField: "status",
+                    dataField: "Status",
                     caption: "Trạng thái",
                     dataTyle: "text"
                 }
@@ -63,8 +63,9 @@ export default {
             this.type = 1;
             let me = this;
             var res = await OrganizationUnitAPI.GetAll();
-            if(res.data && res.data.success){
-                me.dataSource = res.data.data;
+            if(res.data && res.data.Success){
+                me.dataSource = res.data.Data;
+                debugger
             }
         }
     },

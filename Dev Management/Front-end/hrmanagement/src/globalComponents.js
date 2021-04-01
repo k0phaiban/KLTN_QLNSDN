@@ -24,5 +24,9 @@ const ccInput = () => import(/* webpackChunkName:'ccInput' */ '@/components/inpu
 Vue.component('ccInput', ccInput);
 const ccSelectBox = () => import(/* webpackChunkName:'ccSelectBox' */ '@/components/select-box/ccSelectBox.vue');
 Vue.component('ccSelectBox', ccSelectBox);
-const ccOrganizationUnit = () => import(/* webpackChunkName:'ccOrganizationUnit' */ '@/components/organization-unit/index.vue');
+const ccOrganizationUnit = () => import(/* webpackChunkName:'ccOrganizationUnit' */ '@/components/organization-unit/CCOrganizationUnit.vue');
 Vue.component('ccOrganizationUnit', ccOrganizationUnit);
+const ccDate = () => import(/* webpackChunkName:'ccDate' */ '@/components/date/CCDate.vue');
+Vue.component('ccDate', ccDate);
+const ccPopup = () => import(/* webpackChunkName:'ccPopup' */ '@/components/popup/CCPopup.vue');
+Vue.component('ccPopup', ccPopup);

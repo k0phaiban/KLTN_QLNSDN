@@ -70,6 +70,30 @@ export default {
         background-color: #d0d0d0;
     }
 }
+.btn-secondary-border{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    &:hover{
+        border: 1px solid #e0e0e0;
+        background-color: #e0e0e0;
+    }
+    &:active{
+        border: 1px solid #d0d0d0;
+        background-color: #d0d0d0;
+    }
+}
+.btn-delete{
+    color: #ffffff;
+    background-color: #ff1212;
+    border: none;
+    &:hover{
+        background-color: #fa6161;
+    }
+    &:active{
+        background-color: #ff0000;
+    }
+}
 .btn-primary-border{
     color: #000000;
     background-color: #ffffff;

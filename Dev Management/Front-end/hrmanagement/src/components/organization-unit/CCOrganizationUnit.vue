@@ -4,8 +4,8 @@
         :value="value"
         :show-clear-button="true"
         :data-source="treeDataSource"
-        value-expr="organizationUnitID"
-        display-expr="organizationUnitName"
+        value-expr="OrganizationUnitID"
+        display-expr="OrganizationUnitName"
         placeholder="Chọn đơn vị"
         @value-changed="syncTreeViewSelection($event)"
     >
@@ -15,10 +15,10 @@
             :data-source="treeDataSource"
             :select-by-click="true"
             data-structure="plain"
-            key-expr="organizationUnitID"
-            parent-id-expr="parentID"
+            key-expr="OrganizationUnitID"
+            parent-id-expr="ParentID"
             :selection-mode="mode"
-            display-expr="organizationUnitName"
+            display-expr="OrganizationUnitName"
             @content-ready="$event.component.selectItem(value)"
             @item-selection-changed="treeView_itemSelectionChanged($event)"
         />
@@ -67,7 +67,10 @@ export default {
     treeView_itemSelectionChanged(e) {
       this.value = e.component.getSelectedNodeKeys();
       this.$emit("input", this.value);
-      var listChild = this.treeDataSource.filter(x => x.parentID = this.value[0]);
+      if(e.itemData.selected){
+        this.$emit("selected",e.itemData);
+      }
+      var listChild = this.treeDataSource.filter(x => x.ParentID = this.value[0]);
       var number = listChild ? listChild.length : 1;
       var numberZero = 3 - number.toString().length;
       var ccCode = "";
@@ -80,8 +83,8 @@ export default {
     },
     async getAll(){
         var res = await OrganizationUnitAPI.GetAll();
-        if(res.data && res.data.success){
-            this.treeDataSource = res.data.data;
+        if(res.data && res.data.Success){
+            this.treeDataSource = res.data.Data;
         }
     }
   }

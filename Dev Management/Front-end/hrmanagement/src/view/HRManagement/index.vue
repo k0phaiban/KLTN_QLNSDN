@@ -10,6 +10,9 @@ export default {
   name: 'HRManagement',
   components: {
     Layout
+  },
+  methods: {
+    
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="cc-input"
+    <div class="cc-select-box"
     >
         <DxSelectBox
             :data-source="dataSource"

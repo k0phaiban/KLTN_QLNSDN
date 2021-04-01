@@ -16,14 +16,19 @@ export default{
         return res
     },
 
-    async Delete(route){
-        var res =  await Axios.get(this.api + this.controller + route)
-        return res
+    async Delete(controller,id){
+        var res =  await Axios.delete(this.api + controller + `/${id}`);
+        return res;
     },
 
     async Insert(controller,data){
-        var res =  await Axios.post(this.api + controller + "/insert", data)
-        return res
+        var res =  await Axios.post(this.api + controller + "/insert", data);
+        return res;
+    },
+
+    async Update(controller,data){
+        var res =  await Axios.post(this.api + controller + "/update", data);
+        return res;
     },
 
     //Hàm get ALL

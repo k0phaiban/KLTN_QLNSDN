@@ -100,19 +100,15 @@ export default {
                     Router: "/HRManagement/Jobtitle"
                 },
                 {
-                    Type: 0,
-                    Name: "Người dùng"
-                },
-                {
                     Type: 1,
                     ID: 3,
-                    Name: "Thông tin người dùng",
+                    Name: "Mẫu email",
                     Router: "/HRManagement/Account"
                 },
                 {
                     Type: 1,
                     ID: 4,
-                    Name: "Vai trò người dùng",
+                    Name: "Nhật ký truy cập",
                     Router: "/HRManagement/Role"
                 },
                 {
